@@ -35,9 +35,12 @@ class Group:
     """
     def add_student(self,new_student):
         self.student.append(new_student)
-    
+
+    """
+    removes student from list
+    """
     def r_student(self, remove_student):
-        self.remove_student = remove_student
+        self.student.append(remove_student)
 
 """
 liknande till en lista fast med värden och all infomration inom dess class
