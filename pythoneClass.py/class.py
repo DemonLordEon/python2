@@ -50,6 +50,7 @@ Elias = teacher("Elias", "Sjöling", "21", "Male")
 school = Group("Programing", Elias, [elis])
 
 school.add_student(student("michal", "gregory", "17", "airplane"))
+school.r_student()
 
 for a in school.student:
     print(a)
